@@ -1,0 +1,24 @@
+body {
+    background-color:#f9d56e;
+
+}
+
+hr {
+
+    background-color:rgb(28, 26, 160);
+    border-style: solid;
+    height: 2px;
+    width: 95%;
+
+}
+
+h1 {
+    color: grey ;
+
+}
+
+
+img {
+
+    height: 100px;
+}
