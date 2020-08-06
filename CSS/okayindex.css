@@ -1,4 +1,4 @@
-.top{
+/* .top{
 
     background-color: steelblue;
     height: 140px;
@@ -8,19 +8,22 @@
     padding: 20px;
     
 
-}
+} */
 
 body{
 
-    margin: 0;
+    font-family: "Helvetica Neue", Arial, Helvetica, verdana, sans-serif;
+    text-align: center;
+    background-color: lightcyan;
 }
 
 h1{
     
-    margin-top: 0;
+
+    margin: 0 auto 0 auto;
 }
 
-.mid{
+/* .mid{
 
     background-color: red;
     height: 160px;
@@ -29,9 +32,9 @@ h1{
     border: 20px;
     border-style: solid;
 
-}
+} */
 
-.bottom{
+/* .bottom{
 
     background-color: blue;
     height: 180px;
@@ -40,8 +43,41 @@ h1{
     border-style: solid;
     margin-left: 400px;
 
-}
+} */
 
 .guy{
+    text-decoration: underline;
+}
+
+.topcloud{
+    position: absolute;
+    right: 30%;
+    top: 50px;
+
+}
+
+.bottomcloud{
+    position: absolute;
+    left: 28%;
+
+}
+
+.top{
+
+    position: relative;
+    padding: 100px;
+}
+
+.p1{
+    font-size: 1.9rem;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto
     
 }
+
+
+
+
